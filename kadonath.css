@@ -1,8 +1,9 @@
- * {
+  * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -10,14 +11,18 @@ nav {
     min-height: 8vh;
     font-family: Coming Soon;
 }
+
 .bar_links{
     display: flex;
     justify-content: space-around;
     width: 30%;
+    color: thistle;
 }
+
 .bar_links li{
     list-style: none;
 }
+
 .bar_links a{
     text-decoration: none;
     letter-spacing: 3px;
@@ -30,6 +35,7 @@ nav {
     height: 2px;
     background-color: black;
     margin: 5px;
+    background-color: thistle;
 }
 
 @media screen and (max-width:1024px){
@@ -56,15 +62,21 @@ nav {
     }
 }
 
-
-h2 {
+h1 {
     font-family: Indie Flower;
     text-align: center;
     padding-top: 100px;
+    height: 18vh;
 }
+
 h3 {
     font-family: Coming Soon;
     text-align: center;
     padding-bottom: 200px;
+    font: thistle;
 }
 
+body{
+    background-color: rgb(44, 43, 43);
+    color: thistle;
+}
